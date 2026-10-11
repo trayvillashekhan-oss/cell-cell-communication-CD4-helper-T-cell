@@ -148,3 +148,43 @@ These results support the proposed IL-2 communication pathway between activated 
 ### Reference
 
 STRING Database: https://string-db.org/
+
+## Part E. IntAct Molecular Interaction Validation
+
+### Database and Search Information
+
+**Database:** IntAct Molecular Interaction Database  
+**Query Protein:** IL2RA (UniProt: P01589)  
+**Organism:** *Homo sapiens*  
+**Downloaded Format:** PSI-MI TAB 2.7
+
+### Experimental Interaction Evidence
+
+The IntAct search identified experimental interaction records involving IL2RA. The downloaded dataset contains 47 interaction records, including three records supporting an interaction between IL-2 (P60568) and IL2RA (P01589).
+
+### Relevant Experimental Methods
+
+| Detection Method | Publication |
+|---|---|
+| Molecular sieving | PMID: 16477002 |
+| X-ray crystallography | PMID: 16477002 |
+| Solid-phase assay | PMID: 17032757 |
+
+The relevant records reported an MI score of 0.67.
+
+### Interpretation
+
+The IntAct evidence supports a physical interaction between IL-2 and IL2RA, strengthening the proposed ligand–receptor relationship.
+
+Unlike STRING, which reports functional protein associations, IntAct provides experimental interaction records with specific detection methods and supporting publications.
+
+These findings support the proposed communication between activated CD4+ helper T cells and regulatory T cells through IL-2 receptor signaling. However, the molecular interaction records alone do not establish that this communication occurs between those specific cell populations.
+
+### Downloaded Interaction Data
+
+[View IntAct Interaction Dataset](data/07_intact_interactions.tsv)
+
+### Reference
+
+IntAct Molecular Interaction Database: https://www.ebi.ac.uk/intact/
+
