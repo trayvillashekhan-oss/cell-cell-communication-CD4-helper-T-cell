@@ -239,3 +239,19 @@ Database evidence supports IL2 RNA expression in activated CD4+ T cells, IL2RA e
 ### 9. What cellular response is expected in the receiver cell, and why?
 
 The expected response is increased regulatory T-cell survival, proliferation, and immune-regulatory activity. IL-2 receptor signaling activates the JAK–STAT5 pathway, which helps maintain regulatory T-cell function and immune balance.
+
+## References
+
+1. Human Protein Atlas. IL2 (Interleukin-2). https://www.proteinatlas.org/ENSG00000109471-IL2
+
+2. Human Protein Atlas. IL2RA (Interleukin-2 Receptor Subunit Alpha). https://www.proteinatlas.org/ENSG00000134460-IL2RA
+
+3. OmniPath Explorer. https://explore.omnipathdb.org/
+
+4. STRING Database. https://string-db.org/
+
+5. IntAct Molecular Interaction Database. https://www.ebi.ac.uk/intact/
+
+6. UniProt. IL2 (P60568). https://www.uniprot.org/uniprotkb/P60568/entry
+
+7. UniProt. IL2RA (P01589). https://www.uniprot.org/uniprotkb/P01589/entry
