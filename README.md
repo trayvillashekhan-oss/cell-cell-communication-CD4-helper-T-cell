@@ -80,3 +80,71 @@ The proposed communication is paracrine because IL-2 is released by the sender c
 - OmniPath Explorer: https://explore.omnipathdb.org/
 - UniProt — IL2: https://www.uniprot.org/uniprotkb/P60568/entry
 - UniProt — IL2RA: https://www.uniprot.org/uniprotkb/P01589/entry
+
+## Part D. STRING Protein Interaction Network Analysis
+
+### Database and Search Information
+
+**Database:** STRING v12.5  
+**Query Protein:** IL2RA (Interleukin-2 receptor subunit alpha)  
+**Organism:** *Homo sapiens*  
+**Analysis:** Protein–protein association network and functional enrichment
+
+### Network Results
+
+The STRING analysis generated a network containing 11 proteins and 55 functional associations.
+
+| Network Statistic | Result |
+|---|---|
+| Number of nodes | 11 |
+| Number of edges | 55 |
+| Expected number of edges | 15 |
+| Average node degree | 10 |
+| Average local clustering coefficient | 1 |
+| PPI enrichment p-value | 1.11 × 10⁻¹⁵ |
+
+The network contains significantly more functional associations than expected by chance, suggesting that the proteins are biologically connected. STRING associations do not necessarily represent direct physical interactions.
+
+### STRING Network Visualization
+
+![STRING IL2RA Protein Network](figures/05_string_network.png)
+
+### Important Proteins and Their Functions
+
+| Protein | Function |
+|---|---|
+| IL2RA | Alpha subunit of the IL-2 receptor complex |
+| IL2RB | Receptor subunit involved in IL-2 signaling |
+| IL2RG | Common gamma chain involved in cytokine receptor signaling |
+| JAK3 | Protein kinase involved in intracellular signaling |
+| STAT5A | Transcription factor activated downstream of IL-2 signaling |
+| FOXP3 | Transcription factor important for regulatory T-cell identity and function |
+
+### Functional Enrichment Analysis
+
+The STRING network showed significant enrichment in biological processes related to interleukin-2 signaling and T-cell regulation.
+
+| Biological Process | GO Identifier | False Discovery Rate |
+|---|---|---|
+| Response to interleukin-2 | GO:0070669 | 3.44 × 10⁻¹⁶ |
+| Interleukin-2-mediated signaling pathway | GO:0038110 | 1.05 × 10⁻¹³ |
+| Positive regulation of T-cell differentiation | GO:0045582 | 9.32 × 10⁻¹³ |
+| T-cell homeostasis | GO:0043029 | 6.23 × 10⁻¹¹ |
+
+**Selected Enriched Pathway:** Interleukin-2-mediated signaling pathway (GO:0038110).
+
+This pathway is relevant because IL-2 binds to its receptor complex and activates intracellular signaling that contributes to T-cell survival, proliferation, and immune regulation.
+
+### Functional Enrichment Evidence
+
+![STRING Functional Enrichment](figures/06_string_enrichment.png)
+
+### Interpretation
+
+The STRING network supports the biological association of IL2RA with other proteins involved in cytokine signaling. IL2RA, IL2RB, and IL2RG form the high-affinity IL-2 receptor complex. Downstream signaling involves proteins such as JAK3 and STAT5, while FOXP3 is important for regulatory T-cell identity and function.
+
+These results support the proposed IL-2 communication pathway between activated CD4+ helper T cells and regulatory T cells.
+
+### Reference
+
+STRING Database: https://string-db.org/
