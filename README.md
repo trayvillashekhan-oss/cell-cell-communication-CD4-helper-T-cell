@@ -188,3 +188,16 @@ These findings support the proposed communication between activated CD4+ helper 
 
 IntAct Molecular Interaction Database: https://www.ebi.ac.uk/intact/
 
+## Part F. Final Cell-to-Cell Communication Model
+
+### Final Signaling Diagram
+
+*Diagram to be uploaded after completion.*
+
+### Interpretation
+
+The proposed cell-to-cell communication model involves an activated CD4+ helper T cell as the sender and a regulatory T cell (Treg) as the receiver. The sender cell produces interleukin-2 (IL-2), a signaling protein that can bind to the IL-2 receptor complex on regulatory T cells. This interaction represents paracrine signaling because IL-2 acts on a nearby cell.
+
+Evidence from the Human Protein Atlas supports IL2 expression in activated CD4+ T cells and IL2RA expression in regulatory T cells. OmniPath provides supporting information about the signaling roles of IL-2 and its receptor. The STRING network identifies functionally associated proteins, including IL2RA, IL2RB, IL2RG, JAK3, STAT5A, and STAT5B. Its enriched pathways include IL-2-mediated signaling and T-cell homeostasis. IntAct provides experimental molecular-interaction evidence supporting the relationship between IL-2 and IL2RA.
+
+Based on the established IL-2 signaling mechanism, receptor activation can trigger JAK–STAT5 signaling, contributing to regulatory T-cell survival, proliferation, and immune regulation. However, the database findings do not directly demonstrate communication between these two specific cell populations under the same experimental conditions. Therefore, the final model represents a biologically supported interpretation rather than a directly observed cell-to-cell interaction.
