@@ -34,3 +34,49 @@ This supports the selection of IL-2 as a candidate signaling molecule produced b
 Human Protein Atlas. IL2 (Interleukin-2).
 
 https://www.proteinatlas.org/ENSG00000109471-IL2
+
+## Part C. Receptor and Receiver Cell Identification
+
+### Proposed Cell-to-Cell Communication
+
+**Sender Cell:** Activated CD4+ helper T cell  
+**Ligand:** Interleukin-2 (IL-2)  
+**Receptor:** IL-2 receptor complex (IL2RA, IL2RB, IL2RG)  
+**Receiver Cell:** Regulatory T cell (Treg)  
+**Signaling Type:** Paracrine  
+**Biological Context:** Immune regulation
+
+### OmniPath Findings
+
+OmniPath classifies IL2 (UniProt: P60568) as a secreted ligand with a transmitter role in intercellular communication.
+
+IL2RA (UniProt: P01589) is classified as a transmembrane receptor with a receiver role. IL2RA is the alpha subunit of the high-affinity IL-2 receptor complex, which also includes IL2RB and IL2RG.
+
+**IL2 Ligand Evidence:**
+
+![OmniPath IL2 Ligand Evidence](figures/02_omnipath_evidence.png)
+
+**IL2RA Receptor Evidence:**
+
+![OmniPath IL2RA Receptor Evidence](figures/03_omnipath_receptor_evidence.png)
+
+### Receiver Cell Evidence
+
+The Human Protein Atlas identifies IL2RA as group enriched in regulatory T cells (Tregs) and basophils. Its predicted membrane localization supports its function as a cell-surface receptor component.
+
+This provides evidence that regulatory T cells are biologically reasonable receivers of IL-2 signaling.
+
+![HPA Regulatory T Cell Evidence](figures/04_receiver_cell_evidence.png)
+
+### Proposed Signaling Mechanism
+
+Activated CD4+ helper T cells secrete IL-2, which can bind to the IL-2 receptor complex on regulatory T cells. This signaling contributes to regulatory T-cell survival and immune regulation.
+
+The proposed communication is paracrine because IL-2 is released by the sender cell and acts on a nearby receiver cell.
+
+### References
+
+- Human Protein Atlas — IL2RA: https://www.proteinatlas.org/ENSG00000134460-IL2RA
+- OmniPath Explorer: https://explore.omnipathdb.org/
+- UniProt — IL2: https://www.uniprot.org/uniprotkb/P60568/entry
+- UniProt — IL2RA: https://www.uniprot.org/uniprotkb/P01589/entry
